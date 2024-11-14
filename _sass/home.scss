@@ -1,0 +1,29 @@
+// Background hero image is 3 / 4 aspect ratio. By setting *vertical* spacing of content according to *vw*,
+// we can place things relative to the vertical position of the image.
+
+main.home {
+  background-image: url(hero.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  aspect-ratio: 3 / 4;
+  width: 100%;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template: 55vw / 1fr;
+  grid-auto-rows: min-content;
+  align-items: center;
+  justify-items: center;
+
+  h1 {
+    font-size: 6.5vw;
+    text-align: center;
+    text-shadow: 2px 3px 2px black;
+  }
+
+  p {
+    max-width: 80ch;
+    background-color: var(--color-card-bg);
+    padding: 1ex 1em;
+  }
+}

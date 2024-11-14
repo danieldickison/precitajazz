@@ -1,0 +1,15 @@
+<ul class="gallery">
+{% for img in site.static_files %}
+
+  {% unless img.path contains include.asset_path %} {% continue %} {% endunless %}
+  {% if img.path contains "thumbnails" %} {% continue %} {% endif %}
+
+  {% capture dirname %}{{ img.path | replace: img.name, "" | relative_url }}{% endcapture %}
+
+  <li>
+    <a href="{{ img.path | relative_url }}">
+      <img src="{{ dirname }}/thumbnails/{{ img.name }}">
+    </a>
+  </li>
+{% endfor %}
+</ul>
