@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Haight Street Art Walk"
+---
+
+We're excited to be playing at the [Makers Market at the Haight Street Art Walk][artwalk] on December 7th, 2024. Come say hi!
+
+![Makers Market flyer](https://storage.googleapis.com/assets.thethirdplace.is/event-photos/iybsHt_SQq-l2xr3-rEtqg.png)
+
+[artwalk]: https://thethirdplace.is/event/makers-market-at-the-haight-street-art-walk-1
