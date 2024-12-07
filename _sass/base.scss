@@ -72,3 +72,10 @@ main.page {
   margin: 0 auto;
   padding: 0 1em;
 }
+
+p img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin: 0 auto;
+}
