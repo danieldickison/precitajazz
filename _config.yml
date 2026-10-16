@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Precita Jazz Collective is a group of local musicians led by guitarist Daniel Dickison and bassist Philip Sossenheimer.
   Based in Bernal Heights, San Francisco, they’ve become a familiar presence in the community, performing regularly at
   their weekly jam sessions in Precita Park as well as at local bars, block parties, and private events.
-  The jam sessions are open to all at noon every Sunday—bring your instrument or voice and sit in with us!
+  The jam sessions are open to all at 1pm every Sunday—bring your instrument or voice and sit in with us!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://precitajazz.com"
 
